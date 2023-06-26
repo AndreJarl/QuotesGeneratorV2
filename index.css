@@ -1,0 +1,170 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+    --white: #ffffff;
+    --off-white: #e5e5e5;
+    --transp-white-1: rgba(255, 255, 255, 0.25);
+    --transp-white-2: rgba(255, 255, 255, 0.1);
+    --blue-1: #62b8f5;
+    --blue-2: #4475ef;
+    --shadow: rgba(3, 46, 87, 0.2);
+  }
+
+body{
+		font-family: Poppins;		
+      background-color: #7851a9;
+	        margin: 0;
+		padding: 0;
+        color: white;
+	
+}
+.inp{
+			color: white;
+			 font-weight: bold;
+			 opacity: 1;
+			 text-align: center;
+			 font-size: 25px;
+			 margin-bottom: em;
+			 margin-top: 1.5em;
+			 
+}
+
+.container{
+  
+    background: var(--transp-white-2);
+    /* backdrop-filter: blur(10px); */
+    border: 2px solid var(--transp-white-2);
+    border-radius: 0.6em;
+    box-shadow: 0 1.8em 3.7em var(--shadow);
+    text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	         margin-left: 1em;
+                margin-right: 1em;
+            height: 100%;
+		
+}
+.title{
+				font-size: 18px;
+				background: red;
+				text-align: center;
+				padding: .5em;
+				border-radius: 10px;
+				margin-left: 1em;
+				margin-right: 1em;
+				margin-top: 2em;
+}
+
+.subhead{
+				margin-left: 20em;
+                margin-right: 20em;
+				text-align: center;
+				justify-content: center;
+				align-items: center;
+				font-size: 10px;
+				color: white;
+				opacity: 1;
+				margin-bottom: 3em;
+}
+
+
+.quotes {
+				color: white;
+				padding: 1.5em;
+				justify-content: center;
+				display: flex;
+				align-items: center;
+				text-align: center;
+				font-family: Poppins;	
+                margin-left: 10em;	
+                margin-right: 10em;
+				
+				
+}
+button{
+      padding: 1em;
+      font-family: Poppins;
+      font-size: 15px;
+      margin-top: 2em;
+      margin-bottom: 2em;
+      border-radius: 10px;
+      border: none;
+      background-color: red;
+      color: white;
+      font-weight: 500;
+      
+}
+button:hover{
+	 border: 1px solid white;
+}
+.person{
+				margin-bottom: 1em;
+}
+.foot{
+      margin-top: 4em;
+				text-align: center;
+				font-size: 15px;
+				color: red;
+}
+
+.con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+@media screen and  (min-width: 1001px){
+				
+	.subhead{
+	font-size: 16px;
+    
+    margin-left: 10em;
+    margin-right: 10em;
+	}
+				.container{
+				
+							margin-left: 15em;
+							margin-right: 15em;
+				}
+				.quotes{
+								padding: 2.5em;
+				}
+				
+}
+
+@media screen and (min-width: 200px) and (max-width: 700px){
+
+    .subhead{
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+        font-size: 13px;
+    }
+
+    .quotes{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px){
+    .subhead{
+        font-size: 15px;
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+   
+    .container{
+				
+        margin-left: 5em;
+        margin-right: 5em;
+}
+
+.quotes{
+    margin-left: 5em;	
+    margin-right: 5em;
+}
+}
