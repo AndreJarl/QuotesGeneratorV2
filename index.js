@@ -1,6 +1,7 @@
 window.addEventListener('DOMContentLoaded', (event) => {
-    const audio = document.querySelector('.aud');
-    audio.volume = 0.02;
+    const audio = document.querySelector('#sound');
+    audio.volume = 0.5;
+    audio.play()
   });
 
 const qcon = document.querySelector('.quotes');
