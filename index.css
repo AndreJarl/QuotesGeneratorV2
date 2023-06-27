@@ -13,7 +13,7 @@
 
 body{
 		font-family: Poppins;		
-      background-color: #7851a9;
+      background-color: #48afd8;
 	        margin: 0;
 		padding: 0;
         color: white;
@@ -33,7 +33,6 @@ body{
 .container{
   
     background: var(--transp-white-2);
-    /* backdrop-filter: blur(10px); */
     border: 2px solid var(--transp-white-2);
     border-radius: 0.6em;
     box-shadow: 0 1.8em 3.7em var(--shadow);
@@ -42,11 +41,8 @@ body{
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
-	         margin-left: 1em;
-                margin-right: 1em;
-            height: 100%;
-		
 }
+
 .title{
 				font-size: 18px;
 				background: red;
@@ -73,22 +69,20 @@ body{
 
 .quotes {
 				color: white;
-				padding: 1.5em;
+				padding: 5em;
 				justify-content: center;
 				display: flex;
 				align-items: center;
 				text-align: center;
 				font-family: Poppins;	
-                margin-left: 10em;	
-                margin-right: 10em;
-				
+                flex-direction: column;
 				
 }
-button{
+.btn{
       padding: 1em;
       font-family: Poppins;
       font-size: 15px;
-      margin-top: 2em;
+      
       margin-bottom: 2em;
       border-radius: 10px;
       border: none;
@@ -116,6 +110,17 @@ button:hover{
     justify-content: center;
     align-items: center;
     gap: 2em;
+    font-size: 15px;
+}
+
+.ccc{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    margin-left: 15em;
+    margin-right: 15em;
 }
 @media screen and  (min-width: 1001px){
 				
@@ -125,15 +130,11 @@ button:hover{
     margin-left: 10em;
     margin-right: 10em;
 	}
-				.container{
-				
-							margin-left: 15em;
-							margin-right: 15em;
-				}
-				.quotes{
-								padding: 2.5em;
-				}
-				
+
+    .ccc{
+        margin-left: 6em;
+        margin-right: 6em;
+    }
 }
 
 @media screen and (min-width: 200px) and (max-width: 700px){
@@ -145,9 +146,24 @@ button:hover{
     }
 
     .quotes{
-        margin-left: 2em;
-        margin-right: 2em;
+        margin: 0;
+        padding-top: 2em;
+        padding-bottom: 0;
+        
     }
+
+    .ccc{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .ppimg{
+        width: 50px;
+    }
+
 }
 
 @media screen and (min-width: 700px) and (max-width: 1000px){
@@ -162,9 +178,22 @@ button:hover{
         margin-left: 5em;
         margin-right: 5em;
 }
-
 .quotes{
-    margin-left: 5em;	
-    margin-right: 5em;
-}
+        margin: 0;
+        padding-top: 2em;
+        padding-bottom: 0;
+        
+    }
+
+    .ccc{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    
+    .ppimg{
+        width: 50px;
+    }
 }

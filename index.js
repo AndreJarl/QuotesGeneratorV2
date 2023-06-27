@@ -75,6 +75,60 @@ function getQuotes(){
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // const container = document.querySelector('.quotes');
 // const person = document.querySelector('.person');
 // const btn = document.querySelector('.btn');
