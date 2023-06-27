@@ -122,6 +122,16 @@ button:hover{
     margin-left: 15em;
     margin-right: 15em;
 }
+
+.ccimg{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.aud{
+    opacity: 0.1;
+}
 @media screen and  (min-width: 1001px){
 				
 	.subhead{
@@ -148,7 +158,7 @@ button:hover{
     .quotes{
         margin: 0;
         padding-top: 2em;
-        padding-bottom: 0;
+        padding-bottom: 10px;
         
     }
 
@@ -181,7 +191,7 @@ button:hover{
 .quotes{
         margin: 0;
         padding-top: 2em;
-        padding-bottom: 0;
+        padding-bottom: 10px;
         
     }
 
